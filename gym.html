@@ -9,10 +9,12 @@
      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
      <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Matemasie&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stalinist+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Matemasie&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stalinist+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -26,60 +28,80 @@
                     Gym<Span style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Notion</Span>
                </div>
           </div>
-          <div class="bar material-symbols-outlined" >search</div>
+          <div class="bar material-symbols-outlined">search</div>
           <div class="second-div">
                <li class="li">Home</li>
                <li class="li">Service</li>
                <li class="li">About</li>
                <li class="li">Contact</li>
-               <li class="li join">join Us</li>
+               <li class="li join" id="join">join Us</li>
           </div>
      </nav>
      <aside class="sidebar" id="sidebar">
           <div class="sidebar-title">
                <div class="brand">
-                    <!-- <img class="side-logo-img" src="images\images (1).png" alt="" srcset=""> -->
+
                     Gym<Span style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Notion</Span>
                </div>
                <div class="close material-symbols-outlined" id="close" style="font-size: 37px;">close</div>
 
           </div>
-     <div class="input-box">
-          <input type="text" placeholder="search" class="input">
-     </div>
+          <div class="input-box">
+               <input type="text" placeholder="search" class="input">
+          </div>
           <div class="list-box">
-               <li class="list">Home</li>
-               <li class="list">Service</li>
-               <li class="list">About</li>
-               <li class="list">Contact</li>
-               <li class="list joinus">Join Us</li>
+               <li class="list"> <div class="material-symbols-outlined icon">
+                    home
+               </div> Home</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    <span class="material-symbols-outlined">
+                         support_agent
+                         </span>
+               </div>Service</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    <span class="material-symbols-outlined">
+                         contact_mail
+                         </span>
+               </div>About</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    call
+               </div>Contact</li>
+               <li class="list joinus" id="joinus">Join Us</li>
 
 
           </div>
      </aside>
-    
+
      <main class="main">
 
-     <div class="main-text">
-     <div class="box">
+          <div class="main-text">
+               <div class="box">
 
-               <section class="heading">
-                    Your Body
-               </section>
-               <section class="heading">
-                    Will Transform
-               </section>
-               <p class="p">We are commited to helping you transform your life as part of our commitment to you.</p>
-               <div class="buttons">
-                    <button class="btn" id="btn1">Get Started</button>
+                    <section class="heading">
+                         Your <span style="color: #08adf9;">
 
-                    <button class="btn" id="btn2"><div class="material-symbols-outlined watch">play_circle</div> Watch tutoraials</button>
+                        Body </span>
+                    </section>
+                    <section class="heading">
+                         <span
+                          style="color: #ffb703 ;">
+                         Will 
+                         Transform</span>
+                    </section>
+                    <p class="p">We are commited to helping you transform your life as part of our commitment to you.
+                    </p>
+                    <div class="buttons">
+                         <button class="btn" id="btn1">Get Started</button>
 
+                         <button class="btn" id="btn2">
+                              <div class="material-symbols-outlined watch">play_circle</div> Watch tutoraials
+                         </button>
+
+                    </div>
                </div>
-     </div>
-     
-               <img class="main-img" src="images\AdobeStock_96373592_Preview.jpeg" alt="" srcset="">
-               
+
+               <img class="main-img" src="images\daniel-apodaca-WdoQio6HPVA-unsplash (1).jpg" alt="" srcset="">
+
           </div>
           <div class="mainsec">
                <section class="titlep">
@@ -89,33 +111,493 @@
                <section class="fitness-d">
                     <div class="d-a">A fitness movement that is</div>
                     <div class="d-b"> worth breaking a sweat for</div>
-     
+
                </section>
                <section class="explore-p">
-                    <div class="explore-btn">Explore  Notion</div>
+                    <div class="explore-btn">Explore Notion</div>
                     <div class="down-arrow">
-                         <div class="material-symbols-outlined"><span class="material-symbols-outlined" style="color: #fff; font-size: 40px;">
-                              keyboard_arrow_down
-                              </div>
+                         <div class="material-symbols-outlined"><span class="material-symbols-outlined"
+                                   style="color: #fff; font-size: 40px;">
+                                   keyboard_arrow_down
+                         </div>
                     </div>
                </section>
           </div>
      </main>
 
-    <div class="nutrion_container">
-     <div class="nutrion_box">
- <div class="nutrion_title">Fitness Plan & <Span style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Nutrion</span> </div>
- <div class="nutrion">
-     <div class="nut"><div class="t"></div></div>
-     <div class="nut"><div class="t"></div></div>  <div class="nut"><div class="t"></div></div>  <div class="nut"><div class="t"></div></div>  <div class="nut"><div class="t"></div></div>  <div class="nut"><div class="t"></div></div>
+     <div class="nutrion_container">
+          <div class="nutrion_box">
 
- </div>
+               <div class="nutrion_title">Fitness Plan & <Span
+                         style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Nutrion</span> </div>
+
+               <div class="nutrion">
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\weightlifting (1).png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Weight Loss</div>
+                         </div>
+                         <p class="n-icon-d">An effective and simple way to achieve a fit and healthy body while
+                              improving your lifestyle. </p>
+                    </div>
+
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\yoga.png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Classic Yoga</div>
+                         </div>
+                         <p class="n-icon-d">An ancient practice that enhances body flexibility, balance, and mental
+                              peace. </p>
+                    </div>
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\bicycle.png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Cycling</div>
+                         </div>
+                         <p class="n-icon-d">A fun and energetic way to improve fitness while boosting stamina and
+                              endurance. </p>
+                    </div>
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\arm.png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Body Building</div>
+                         </div>
+                         <p class="n-icon-d">Achieve a strong and sculpted body with professional workout plans and
+                              proper guidance. </p>
+                    </div>
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\dumbbell.png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Misculation</div>
+                         </div>
+                         <p class="n-icon-d">Build powerful muscles with scientifically designed exercises and a
+                              balanced diet. </p>
+                    </div>
+                    <div class="nut">
+
+                         <div class="n-fst">
+                              <div class="n-icon">
+                                   <img class="n-img" src="images\runer-silhouette-running-fast.png" alt="" srcset="">
+                              </div>
+                              <div class="n-t">Running & Fitness</div>
+                         </div>
+                         <p class="n-icon-d">Fit aur healthy body ke liye asaan aur prabhavi tareeka jo aapki lifestyle
+                              ko behtar banaye. </p>
+                    </div>
+
+
+               </div>
+               <div class="sub-title">Subscribe To <Span
+                         style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Plan</span> </div>
+          </div>
+
+
+          <img class="n-backimg" src="images\anastase-maragos-7kEpUPB8vNk-unsplash.jpg" alt="">
      </div>
-     <img class="n-img" src="images\AdobeStock_192952278_Preview.jpeg" alt="">
-    </div>
+     <div class="subscription-container">
+
+          <div class="cardbox">
+
+               <div class="s-p">
+
+                    <div class="s c1">
+                         <div class="level">Free</div>
+                         <div class="price">$0<span style="font-size: 1.5rem; color: rgb(255, 255, 255,0.6);">/mo</span>
+                         </div>
+                         <div class="hor-line">Free Plan – "Start for <div class="h-neon"> free </div>
+                              !"
+                         </div>
+                         <div class="includes">Includes</div>
+                         <div class="benifit-container">
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+          justify-content: flex-start;
+          align-items: center;">
+                                        task_alt
+                                   </div>Limited gym access
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+               justify-content: flex-start;
+               align-items: center;">
+                                        task_alt
+                                   </div>Basic workout plan
+                              </div>
+
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                    justify-content: flex-start;
+                    align-items: center;">
+                                        task_alt
+                                   </div>No personal trainer
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                         justify-content: flex-start;
+                         align-items: center;">
+                                        task_alt
+                                   </div>Access to limited group classes
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                              justify-content: flex-start;
+                              align-items: center;">
+                                        task_alt
+                                   </div>Standard gym equipment
+                              </div>
 
 
-     <footer class="footer"></footer>
+
+                         </div>
+
+                         <div class="plan-buttons">
+                              <div class="plan-btn">
+                                   Select
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="s-p">
+
+                    <div class="s c2">
+                         <div class="level">Plus</div>
+                         <div class="price">$350<span
+                                   style="font-size: 1.5rem; color: rgb(255, 255, 255,0.6);">/mo</span>
+                         </div>
+                         <div class="hor-line">Plus Plan – "Go Beyond – <div class="h-neon"> 20% </div>
+                              Off!"
+                         </div>
+                         <div class="includes">Includes</div>
+                         <div class="benifit-container">
+
+
+
+
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                   justify-content: flex-start;
+                                   align-items: center;">
+                                        task_alt
+                                   </div>Unlimited gym access
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                        justify-content: flex-start;
+                                        align-items: center;">
+                                        task_alt
+                                   </div>Personalized workout plan
+                              </div>
+
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                             justify-content: flex-start;
+                                             align-items: center;">
+                                        task_alt
+                                   </div>Group classes access
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                                  justify-content: flex-start;
+                                                  align-items: center;">
+                                        task_alt
+                                   </div>Diet & nutrition guidance
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                                       justify-content: flex-start;
+                                                       align-items: center;">
+                                        task_alt
+                                   </div>Discount on gym supplements
+
+                              </div>
+
+
+
+                         </div>
+
+                         <div class="plan-buttons">
+                              <div class="plan-btn">
+                                   Select
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+               <div class="s-p">
+
+                    <div class="s c3">
+                         <div class="level">Pro</div>
+                         <div class="price">$750<span
+                                   style="font-size: 1.5rem; color: rgb(255, 255, 255,0.6);">/mo</span>
+                         </div>
+                         <div class="hor-line">Pro Plan – "Train Like a Pro – <div class="h-neon"> 25% </div> Off!"
+                         </div>
+                         <div class="includes">Includes</div>
+                         <div class="benifit-container">
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                   justify-content: flex-start;
+                                   align-items: center;">
+                                        task_alt
+                                   </div> Everything in Plus Plan
+
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                        justify-content: flex-start;
+                                        align-items: center;">
+                                        task_alt
+                                   </div>Dedicated personal trainer
+                              </div>
+
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                             justify-content: flex-start;
+                                             align-items: center;">
+                                        task_alt
+                                   </div> Advanced body analysis & fitness tracking
+
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                                  justify-content: flex-start;
+                                                  align-items: center;">
+                                        task_alt
+                                   </div>Sauna & steam room access
+                              </div>
+                              <div class="benifit-box">
+                                   <div class="material-symbols-outlined check" style="font-size: 25px;display: flex;
+                                                       justify-content: flex-start;
+                                                       align-items: center;">
+                                        task_alt
+                                   </div>Exclusive workout & diet consultation
+                              </div>
+
+
+
+                         </div>
+
+                         <div class="plan-buttons">
+                              <div class="plan-btn">
+                                   Select
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+          <div class="trainer-title">Join Our <Span
+                    style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Trainer</span> </div>
+
+           <div class="trainer-container">
+
+               <div class="trainer-box" id="trainer-box">
+                    <div class="trainer">
+                         <img class="trainer-img" src="images\2149561874.jpg">
+                    </div>
+                    <div class="trainer">
+                         <img class="trainer-img" src="images\58408.jpg">
+                    </div>
+                    <div class="trainer">
+                         <img class="trainer-img" src="images\58480.jpg">
+                    </div>
+
+                    <div class="trainer">
+                         <img class="trainer-img" src="images\dollar-gill-C43Pr88QgS8-unsplash.jpg">
+                    </div>
+
+                    <div class="trainer">
+                         <img class="trainer-img" src="images\2149517256.jpg">
+                    </div>
+
+               </div>
+
+               <div class="arrow-box">
+                    <div class="material-symbols-outlined " style="color: #0fbf2f;   font-size: 40px;" id="leftstyle">
+                         arrow_left_alt</div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+
+                    <div class="material-symbols-outlined rightstyle" style="color: #0fbf2f;   font-size: 40px;"
+                         id="rightstyle">arrow_right_alt</div>
+               </div>
+
+
+              
+
+
+          </div> 
+          <div class="whyjoin-title"> Why join with<Span
+               style="color: #0fbf2f; filter: brightness(300%) saturate(200%); "> Us</span> </div>
+          <div class="whyjoin-container">
+               <div class="whyjoin-box">
+
+                    
+
+                    <div class="whyjoin-discr">
+                         <div class="benifit-container">
+                              <div class="whyjoin-benifit-box">
+                                   <div class="material-symbols-outlined wjcheck" style="font-size: 25px;display: flex;
+justify-content: flex-start;
+align-items: center;">
+                                        check
+                                   </div> Best Gym
+                              </div>
+                              <div class="whyjoin-benifit-box">
+                                   <div class="material-symbols-outlined wjcheck" style="font-size: 25px;display: flex;
+     justify-content: flex-start;
+     align-items: center;">
+                                        check
+                                   </div>Experts Coach
+                              </div>
+
+                              <div class="whyjoin-benifit-box">
+                                   <div class="material-symbols-outlined wjcheck" style="font-size: 25px;display: flex;
+          justify-content: flex-start;
+          align-items: center;">
+                                        check
+                                   </div>Flexible Workout Time
+                              </div>
+                              <div class="whyjoin-benifit-box">
+                                   <div class="material-symbols-outlined wjcheck" style="font-size: 25px;display: flex;
+               justify-content: flex-start;
+               align-items: center;">
+                                        check
+                                   </div>Good Workout Facilities
+                              </div>
+                              <div class="whyjoin-benifit-box">
+                                   <div class="material-symbols-outlined wjcheck" style="font-size: 25px;display: flex;
+                    justify-content: flex-start;
+                    align-items: center;">
+                                        check
+                                   </div>Consulting With Experts
+                              </div>
+
+
+
+                         </div>
+                    </div>
+                    <div class="whyjoin-buttons">
+                         <div class="wjbtn">See More Benifits</div>
+                    </div>
+               </div>
+               <div class="whyjoin-images">
+                    <div class="wjimages">
+
+                         <img class="wjimg" src="images\20.jpg">
+
+                    </div>
+                    <div class="wjimages">
+
+                         <img class="wjimg" src="images\download.jpeg">
+                    </div>
+                    <div class="wjimages">
+
+                         <img class="wjimg"
+                              src="images\depositphotos_338792474-stock-photo-strong-young-bearded-man-training.jpg">
+                    </div>
+
+
+                    <div class="wjimages">
+
+                         <img class="wjimg" src="images\AdobeStock_237942164_Preview.jpeg">
+                    </div>
+
+
+               </div>
+
+          </div>
+          <img class="sub-img" src="images\AdobeStock_96373592_Preview.jpeg" alt="" srcset="">
+     </div>
+
+     <footer class="footer">
+          <div class="main-div">
+               <div class="inner-div m">
+                    <div class="sub-div m">
+
+
+                        
+                         Gym<Span style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Notion</Span>
+                    </div>
+                   
+               </div>
+               <div class="inner-div">
+                    <div class="sub-div menu">Contact</div>
+                    <div class="sub-div">
+                         <div class="material-symbols-outlined icon">
+                              mail
+                         </div>
+                         ap25india@gmail.com
+                    </div>
+                    <div class="sub-div">
+                         <div class="material-symbols-outlined icon">
+                              call
+                         </div>8102003628
+                    </div>
+                    <div class="sub-div">
+                         <div class="material-symbols-outlined icon">
+                              location_on
+                         </div>
+                         Sonepur 5th floor,PATNA
+                    </div>
+                    <!-- <div class="sub-div menu">Our Menu</div>
+                    <div class="sub-div">Breakfast</div>
+                    <div class="sub-div">Lunch</div>
+                    <div class="sub-div">Dinner</div> -->
+               </div>
+               <div class="inner-div">
+                    <div class="sub-div menu">Information</div>
+                    <div class="sub-div">About Us</div>
+                    <div class="sub-div">Gym Studio</div>
+                    <div class="sub-div">Blog</div>
+               </div>
+               <div class="inner-div">
+                    <div class="sub-div menu">Useful Link</div>
+                    <div class="sub-div">Service
+
+                    </div>
+                    <div class="sub-div">Help & Support</div>
+                    <div class="sub-div">Term & Condition</div>
+               </div>
+               <div class="inner-div">
+                    <div class="sub-div menu">Social</div>
+                    <div class="sub-div">
+                         <div class="fa fa-facebook icon"></div>
+                         Facebook
+                    </div>
+                    <div class="sub-div">
+                         <div class="fa fa-instagram icon"></div>
+                         Instagram
+                    </div>
+                    <div class="sub-div">
+                         <div class="fa fa-whatsapp icon"></div>
+                         Whatsapp
+                    </div>
+               </div>
+          </div>
+          <div class="copyright">
+               @Copyright 2025 Powered by Gym<Span
+                    style="color: #0fbf2f; filter: brightness(300%) saturate(200%); ">Notion</Span>
+          </div>
+     </footer>
      <script src="gym.js"></script>
 </body>
 
