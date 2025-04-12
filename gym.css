@@ -734,8 +734,7 @@ position: relative;
 }
 
 .dot{
-     font-size: 100px;
-   width: 18px;
+   width: 30%;
    height: 18px;
    background: #456;
    border: 3.3px solid #234;
