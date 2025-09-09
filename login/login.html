@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
-     <link rel="stylesheet" href="signup.css">
+     <link rel="stylesheet" href="login.css">
      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
      <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -49,10 +49,22 @@
                <input type="text" placeholder="search" class="input">
           </div>
           <div class="list-box">
-               <li class="list">Home</li>
-               <li class="list">Service</li>
-               <li class="list">About</li>
-               <li class="list">Contact</li>
+               <li class="list"> <div class="material-symbols-outlined icon">
+                    home
+               </div> Home</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    <span class="material-symbols-outlined">
+                         support_agent
+                         </span>
+               </div>Service</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    <span class="material-symbols-outlined">
+                         contact_mail
+                         </span>
+               </div>About</li>
+               <li class="list"><div class="material-symbols-outlined icon">
+                    call
+               </div>Contact</li>
                <li class="list joinus" id="joinus">Join Us</li>
 
 
@@ -60,26 +72,28 @@
      </aside>
 
 
+
      <main class="main">
           <div class="box">
                
      <div class="login-container">
-          <div class="login-title">Signup</div>
+          <div class="login-title">Login</div>
           <div class="email-box">
                <input type="text" placeholder="Email">
           </div>
           <div class="password-box">
                <input type="text" placeholder="Password">
           </div>
-          <div class="confirm-password-box">
-               <input type="text" placeholder="Confirm passowrd">
-          </div>
-          <div class="accept-term">
-                    <input class="check" type="checkbox">
-                    I accept all term and condition</div>
+          
+           <div class="remember-box">
+          <div class="rem">
+               <input class="check" type="checkbox">
+               Remember me</div>
+               <div class="forgot-password">Forgot password?</div>
+     </div> 
           <div class="signup-buttons">
-               <div class="signup-btn">Signup</div>
-               <div class="login">Already have an account? <span id="link"> Login</span> </div>
+               <div class="signup-btn">Login</div>
+               <div class="login">Don't have a account?  <span id="link"> signup</span> </div>
           </div>
           <div class="line-container">
                <span class="span">or</span>
@@ -102,7 +116,12 @@
      </div>
        </div>
 
-      
+       <!-- <div class="remember-box">
+          <div class="rem">
+               <input type="checkbox">
+               Remember me</div>
+               <div class="forgot-password">Forgot password</div>
+     </div> -->
         
           <video class="main-video" src="images\WhatsApp Video 2025-03-29 at 12.59.25_b11d6b5c.mp4" controls autoplay  muted loop playsinline></video>
        </div>
@@ -140,10 +159,7 @@
                          </div>
                          Sonepur 5th floor,PATNA
                     </div>
-                    <!-- <div class="sub-div menu">Our Menu</div>
-                    <div class="sub-div">Breakfast</div>
-                    <div class="sub-div">Lunch</div>
-                    <div class="sub-div">Dinner</div> -->
+                   
                </div>
                <div class="inner-div">
                     <div class="sub-div menu">Information</div>
@@ -181,6 +197,6 @@
           </div>
      </footer>
 
-     <script src="signup.js"></script>
+     <script src="login.js"></script>
 </body>
 </html>

@@ -24,15 +24,18 @@ close.addEventListener('click',()=>{
 let link=document.getElementById('link')
 
 link.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="../signup/signup.html"
 })
 
 let join=document.getElementById('join')
 join.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="../signup/signup.html"
+   
+
 })
 
 let joinus=document.getElementById('joinus')
 joinus.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="../signup/signup.html"
+     
 })

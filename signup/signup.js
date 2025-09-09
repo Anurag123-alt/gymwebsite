@@ -47,18 +47,18 @@ let dots=document.querySelectorAll('.dot')
 let link=document.getElementById('link')
 
 link.addEventListener('click',()=>{
-     window.location="login.html"
+     window.location="../login/login.html"
 })
 
 
 let join=document.getElementById('join')
 join.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="../login/login.html"
 })
 
 let joinus=document.getElementById('joinus')
 joinus.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="../login/login.html"
 })
 let cind=0;
 

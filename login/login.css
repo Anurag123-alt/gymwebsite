@@ -219,8 +219,7 @@ border-bottom:1px solid #444;      */
 
 
 .email-box,
-.password-box,
-.confirm-password-box {
+.password-box {
      width: 100%;
      height: 53px;
      display: flex;
@@ -228,16 +227,39 @@ border-bottom:1px solid #444;      */
      align-items: center;
 }
 
-.accept-term {
+.remember-box {
      width: 100%;
      height: 50px;
      display: flex;
-     align-items: flex-start;
-     padding-left: 12%;
-     gap: 10px;
+     align-items: center;
+     
 }
 
+.rem{
+     width: 50%;
+     height: 50px;
+     display: flex;
+     align-items: center;
+    padding-left: 12%;
+    gap: 10px;
+}
 
+.forgot-password{
+     width: 50%;
+     height: 50px;
+    padding-right: 12%;
+color: var(--theme);
+cursor: pointer;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+
+     
+}
+
+.forgot-password:hover{
+     text-decoration: underline;
+}
 .check {
      width: 18px;
      height: 18px;
@@ -278,6 +300,7 @@ input::placeholder{
      padding: 10px;
      background: var(--theme);
      transition: 0.4s;
+     cursor: pointer;
 }
 
 .signup-btn:hover {
@@ -606,10 +629,17 @@ footer {
      .list {
           cursor: pointer;
           padding: 12px;
-          background: #999;
+          /* background: #999; */
           list-style-type: none;
-          color: #000;
+          color: #fff;
           transition: 0.3s;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+     }
+
+     .icon{
+          width: 50px;
      }
 
      .list:hover {
@@ -630,9 +660,11 @@ footer {
           width: 260px;
           height: 50px;
           border-radius: 5px;
-          border: none;
+          border: 2px solid #fff;
           font-size: 20px;
           padding-left: 15px;
+          background: #000;
+          color: #fff;
      }
 
      .joinus {
@@ -641,6 +673,7 @@ footer {
           justify-content: center;
           align-items: center;
           color: #fff;
+          border-radius: 3px;
 
      }
 

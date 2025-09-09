@@ -1,4 +1,5 @@
 let body=document.body;
+
 let nav=document.getElementById("nav")
 
 window.addEventListener('scroll',()=>{
@@ -91,10 +92,10 @@ dots[cind].style.background="#0c9723"
 
 let join=document.getElementById('join')
 join.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="signup/signup.html"
 })
 
 let joinus=document.getElementById('joinus')
 joinus.addEventListener('click',()=>{
-     window.location="signup.html"
+     window.location="signup/signup.html"
 })

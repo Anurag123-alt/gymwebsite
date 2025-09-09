@@ -550,7 +550,7 @@ box-shadow: 0 0 5px #07871e;
 }
 .s {
      width: 100%;
-     min-height: 450px;
+    height: auto;
      background: rgb(29, 28, 28, 1);
      background: #111;
      /* border: 2px solid; */
